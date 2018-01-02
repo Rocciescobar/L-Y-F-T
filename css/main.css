@@ -1,0 +1,60 @@
+/* Estilos para fondo */
+.main-background {
+  background: linear-gradient(135deg, rgba(83,0,96,1) 0%, rgba(197,8,128,1) 100%);
+  height: 100vh;
+}
+
+.bg-image-1 {
+  background-image: url(../assets/images/fondo-inicio.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;  
+  height: 100%;
+  width: 100%;
+}
+
+/* Estilos para logos */
+.small-logo {
+  width: 25%;
+}
+
+.big-logo {
+  width: 70%;
+}
+
+.logo-2 {
+  margin: 50% 0;
+}
+
+/* Estilos para botones*/
+.section-buttons {
+  margin-bottom: 20px;
+}
+
+.btn-specific {  
+  background-color: transparent;
+  border-color: #ccc;
+  color: #fff;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+/* Estilos para banderas */
+.img-flag {
+  width: 32px;
+}
+
+.dropdown-menu {
+  min-width: 74px;
+}
+
+/* Otros estilos */
+.centered {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.mar-top {
+  margin-top: 33px;
+}

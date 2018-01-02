@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Import bootstrap.css-->
+    <link type="text/css" rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css" />
+    <!-- main.css-->
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <title>L Y F T</title>
+  </head>
+  <body>
+    <div class="container mar-top">
+      <div class="row">
+        <div class="col-xs-6 col-xs-offset-3">
+          <!-- Info y botón atrás -->
+          <div class="row">
+            <div class="col-xs-3 mar-top">
+              <a class="btn btn-default" href="../index.html" role="button">
+                <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+              </a>
+            </div>
+            <div class="col-xs-9">
+              <h4 class="text-center"><strong>Sign Up</strong></h4>
+              <p class="text-center">Join now for free ride credit</p>
+            </div>
+          </div>
+          <hr>
+          <!-- Selecciona una bandera -->
+          <div class="input-group">
+            <div class="input-group-btn">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="../assets/icons/peru.png" class="main-flag img-flag" alt="peru"> <span class="caret"></span></button>
+              <ul class="dropdown-menu" id="flag-list">
+                <li id="flag"><a href="#"><img src="../assets/icons/peru.png" class="img-flag" alt="peru"></a></li>
+                <li id="flag"><a href="#"><img src="../assets/icons/mexico.png" class="img-flag" alt="mexico"></a></li>
+                <li id="flag"><a href="#"><img src="../assets/icons/chile.png" class="img-flag" alt="chile"></a></li>
+                <li id="flag"><a href="#"><img src="../assets/icons/brasil.png" class="img-flag" alt="brasil"></a></li>
+              </ul>
+            </div><!-- /btn-group -->
+            <input type="text" id="input-phone" class="form-control input-lg" aria-label="...">
+          </div><!-- /input-group -->
+          <p class="text-center">We'll send a text to verify your phone</p>
+          <a href="verify.html" id="button-next" class="btn btn-danger btn-lg btn-block mar-top disabled" role="button">NEXT</a>
+        </div>
+      </div>
+    </div>
+    <!--Import jQuery before bootstrap.js-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/app.js"></script>
+  </body>
+</html>
