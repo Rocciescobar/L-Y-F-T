@@ -1,11 +1,11 @@
 $(document).ready(function() {  
   // Animación splash  
-  // $('.start-view').hide();
-  // $('#splashscreen').show();    
-  // setTimeout(function() {
-    // $('#splashscreen').fadeOut(500);
-    // $('.start-view').show();
-  // }, 2000);
+  $('.start-view').hide();
+  $('#splashscreen').show();    
+  setTimeout(function() {
+    $('#splashscreen').fadeOut(500);
+    $('.start-view').show();
+  }, 2000);
 
   // Selecciona una bandera
   $('#flag-list').on('click', function() {
